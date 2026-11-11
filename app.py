@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Descomplica Processo", page_icon="📄")
 st.title("📄 Descomplica Processo")
 st.warning("⚠️ Projeto demonstrativo - Todos os dados aqui são fictícios. Nenhum processo real foi utilizado, em respeito à LGPD.")
-st.write("IA que resume processos públicos do PROA / 1Doc em 5 linhas.")
+st.write("IA que resume processos públicos em 5 linhas.")
 
 processo = st.text_area("Cole aqui o texto do processo (fictício):", height=150)
 
